@@ -1,0 +1,17 @@
+.custom-paragraph {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #616161;
+    margin-bottom: 1rem;
+}
+
+.custom-border {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.custom-title{
+    color: #333;
+    margin-left: 10%;
+    margin-right: 10%;
+}

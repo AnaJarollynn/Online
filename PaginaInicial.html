@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="PaginaInicial.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="PaginaInicial.html">
+              <img src="Imagens/NavBar/Logo_OnlineApplications.webp" alt="Logo" width="100%" height="100%" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dúvidas</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Fórum da sua equipe</a></li>
+                          <li><a class="dropdown-item" href="#">Documentação</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Fórum de outras equipes</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pendências</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Minhas Pendências</a></li>
+                          <li><a class="dropdown-item" href="#">Pendências da Minha Equipe</a></li>
+                          <li><a class="dropdown-item" href="#">Novas Pendências</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <button type="button" class="btn btn-dark position-relative bi bi-envelope">
+                  Mensagens <span class="visually-hidden">Pendentes</span>
+              </button>
+              <form class="d-flex ms-3" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                  <button class="btn btn-outline-dark" type="submit">Procurar</button>
+              </form>
+          </div>
+      </div>
+  </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video src="Imagens/Carrousel/VideoUm.mp4" type="video/mp4" class="d-block w-100" alt="VideoUmCarrossel" autoplay loop muted>Seu Navegador não suporta este vídeo</video>
+            </div>
+            <div class="carousel-item">
+                <video src="Imagens/Carrousel/VideoDois.mp4" type="video/mp4" class="d-block w-100" alt="VideoDoisCarrossel" autoplay loop muted>Seu Navegador não suporta este vídeo</video>
+            </div>
+            <div class="carousel-item">
+                <video src="Imagens/Carrousel/VideoTres.mp4" type="video/mp4" class="d-block w-100" alt="VideoDoisCarrossel" autoplay loop muted>Seu Navegador não suporta este vídeo</video>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+      <br>
+      <br>
+      <br>
+      <p class="custom-title text-center text-xl-center fs-1">Objetivo do Site</p>
+      <br>
+      <p class="custom-paragraph custom-border text-center">
+        Um site com o objetivo de servir como ambiente de trabalho para uma equipe tem como principal foco a facilitação da comunicação, organização e colaboração entre os membros. Ao disponibilizar a visualização de pendências, o site permite que todos os integrantes estejam cientes das tarefas que precisam ser realizadas, evitando duplicidade de esforços e garantindo que as atividades sejam concluídas de forma eficiente.<br><br>
+
+Além disso, a função de enviar perguntas e respostas em um fórum promove a troca de conhecimento e experiências entre os membros da equipe, criando um ambiente colaborativo e estimulando o aprendizado contínuo. Os questionamentos e as soluções compartilhadas podem ajudar a equipe a resolver problemas de forma mais rápida e eficaz, além de promover um ambiente de trabalho mais coeso e colaborativo.<br><br>
+
+A possibilidade de verificar e enviar documentações sobre os processos realizados pela equipe é fundamental para a organização e gestão do trabalho. Através do site, os membros podem acessar e compartilhar documentos importantes, como procedimentos operacionais padrão, relatórios de atividades e outros materiais relevantes. Isso contribui para a padronização de processos, a transparência nas operações e a preservação do conhecimento institucional.<br><br>
+
+Em resumo, um site com essas funcionalidades tem como objetivo centralizar as informações e as atividades da equipe em um único lugar, promovendo a comunicação eficaz, a colaboração entre os membros e a organização do trabalho. Isso resulta em uma equipe mais produtiva, alinhada e capaz de alcançar melhores resultados.<br><br>
+      </p>
+      <p class="custom-title text-center text-xl-center fs-1">Importância do compartilhamento de Informações</p>
+      <p class="custom-paragraph custom-border text-center">
+        compartilhamento de informações e conhecimentos no ambiente de trabalho é fundamental para o sucesso de uma equipe e de uma organização como um todo. A troca de informações permite que os membros da equipe aprendam uns com os outros, evitem erros já cometidos por outros e inovem em suas práticas e processos.<br><br>
+
+        Uma das principais vantagens do compartilhamento de informações é a melhoria da eficiência e da qualidade do trabalho. Quando as pessoas compartilham o que sabem, o conhecimento se multiplica e é aplicado de maneira mais ampla e eficaz. Isso pode levar a processos mais eficientes, produtos e serviços de melhor qualidade e, consequentemente, maior satisfação do cliente.<br><br>
+        
+        Além disso, o compartilhamento de informações promove um ambiente de trabalho colaborativo e positivo. Quando as pessoas se sentem incentivadas e valorizadas por compartilhar seu conhecimento, elas tendem a se engajar mais e a trabalhar melhor em equipe. Isso fortalece os laços entre os membros da equipe e contribui para um clima organizacional saudável.<br><br>
+        
+        O compartilhamento de informações também é essencial para a inovação. Ao compartilhar conhecimentos e experiências, as pessoas podem identificar oportunidades de melhoria e criar soluções criativas para os desafios que enfrentam. A inovação é fundamental para a sustentabilidade e o crescimento de uma organização a longo prazo.<br><br>
+
+      </p>
+      <footer class="footer fs-6 border-top bg-body-tertiary text-dark text-center">
+        <div class="container">
+            <span>© 2024 Ana Carolina. Todos os direitos reservados.</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
